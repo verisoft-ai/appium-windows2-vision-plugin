@@ -1,0 +1,69 @@
+{
+  "name": "appium-windows2-vision-plugin",
+  "version": "1.0.0",
+  "description": "Vision-based element finding for appium-desktop-driver, as an installable Appium plugin",
+  "keywords": [
+    "appium",
+    "plugin",
+    "desktop",
+    "windows",
+    "vision",
+    "automation",
+    "verisoft"
+  ],
+  "main": "build/src/index.js",
+  "files": [
+    "build/**/*",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "watch": "tsc -b --watch",
+    "lint": "eslint .",
+    "test": "npx vitest run",
+    "test:e2e": "npx vitest run --config vitest.e2e.config.ts"
+  },
+  "author": "Automate The Planet",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/verisoft-ai/appium-windows2-vision-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/verisoft-ai/appium-windows2-vision-plugin/issues"
+  },
+  "peerDependencies": {
+    "appium": "^3.0.0-rc.2"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "~0.82.0",
+    "@appium/support": "^7.2.6",
+    "@aws-sdk/client-bedrock-runtime": "^3.1035.0",
+    "@napi-rs/canvas": "^1.0.2",
+    "@techstark/opencv-js": "^5.0.0-release.1",
+    "pngjs": "^7.0.0"
+  },
+  "appium": {
+    "pluginName": "windows2-vision",
+    "mainClass": "VisionPlugin"
+  },
+  "devDependencies": {
+    "@appium/eslint-config-appium-ts": "^2.0.3",
+    "@appium/tsconfig": "^1.1.0",
+    "@appium/types": "^1.1.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@types/node": "^24.8.1",
+    "@types/pngjs": "^6.0.5",
+    "appium": "^3.0.0-rc.2",
+    "conventional-changelog-conventionalcommits": "^9.1.0",
+    "eslint": "^9.38.0",
+    "semantic-release": "^25.0.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.1",
+    "vitest": "^2.1.0",
+    "webdriverio": "^9.30.1"
+  }
+}
