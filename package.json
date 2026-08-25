@@ -1,6 +1,6 @@
 {
   "name": "appium-windows2-vision-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vision-based element finding for appium-desktop-driver, as an installable Appium plugin",
   "keywords": [
     "appium",
