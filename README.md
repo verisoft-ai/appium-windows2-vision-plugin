@@ -1,4 +1,4 @@
-# appium-windows2-vision-plugin
+# appium-wincore-vision-plugin
 
 Vision-based element finding for [appium-desktop-driver](https://github.com/verisoft-ai/appium-desktop-driver), as an installable Appium plugin.
 
@@ -9,7 +9,7 @@ Split out from the driver core so users who don't need LLM-based vision finding 
 ## Install
 
 ```bash
-appium plugin install --source=npm appium-windows2-vision-plugin
+appium plugin install --source=npm appium-wincore-vision-plugin
 ```
 
 Requires Appium 3 and `appium-desktop-driver` installed and running a `DesktopDriver` session.
@@ -17,7 +17,7 @@ Requires Appium 3 and `appium-desktop-driver` installed and running a `DesktopDr
 ## Enable
 
 ```bash
-appium --use-plugins=windows2-vision
+appium --use-plugins=wincore-vision
 ```
 
 ## Usage

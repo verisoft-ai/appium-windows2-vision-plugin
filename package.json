@@ -1,5 +1,5 @@
 {
-  "name": "appium-windows2-vision-plugin",
+  "name": "appium-wincore-vision-plugin",
   "version": "1.0.1",
   "description": "Vision-based element finding for appium-desktop-driver, as an installable Appium plugin",
   "keywords": [
@@ -29,10 +29,10 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/verisoft-ai/appium-windows2-vision-plugin.git"
+    "url": "https://github.com/verisoft-ai/appium-wincore-vision-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/verisoft-ai/appium-windows2-vision-plugin/issues"
+    "url": "https://github.com/verisoft-ai/appium-wincore-vision-plugin/issues"
   },
   "peerDependencies": {
     "appium": "^3.0.0-rc.2"
@@ -46,7 +46,7 @@
     "pngjs": "^7.0.0"
   },
   "appium": {
-    "pluginName": "windows2-vision",
+    "pluginName": "wincore-vision",
     "mainClass": "VisionPlugin"
   },
   "devDependencies": {
